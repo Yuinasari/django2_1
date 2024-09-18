@@ -10,6 +10,10 @@
     <a href="../about/">about</a>
 
 
-
+    <ul>
+        {% for x in blogs %}
+          <li>{{ x.title }} {{ x.detial }}</li>
+        {% endfor %}
+      </ul>
 </body>
 </html>
